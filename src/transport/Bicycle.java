@@ -6,14 +6,6 @@ public class Bicycle extends Transport {
         super(modelName, wheelsCount);
     }
 
-    public String getModelName() {
-        return modelName;
-    }
-
-    public int getWheelsCount() {
-        return wheelsCount;
-    }
-
     @Override
     public String toString() {
         return "transport.Bicycle{" +
